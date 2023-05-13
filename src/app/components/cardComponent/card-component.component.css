@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Sfdistant';
+  src: url('src/assets/Fonts/SfDistantGalaxy-0l3d.ttf') format('woff2'),
+  url('src/assets/Fonts/SfDistantGalaxy-0l3d.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15%;
+  flex: 1;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+body {
+  font-family: "Sfdistant";
+  gap: 2rem;
+  background: hsl(187 40% 98%);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  .cta {
+    width: 90%;
+    margin: 9%;
+    padding-bottom: 21px;
+  }
+}
+
+.cta {
+  --shadowColor: 187 60% 40%;
+  display: flex;
+  flex-wrap: wrap;
+  background: lightskyblue;
+  box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  border: 0.5rem solid;
+  margin: 3%;
+  flex: 1;
+}
+
+.cta img {
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  flex: 1 1 300px;
+  outline: 0.5rem solid;
+}
+
+.cta__text-column {
+  padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
+  flex: 1 0 50%;
+}
+
+.cta__text-column > * + * {
+  margin: min(1.5rem, 2.5vw) 0 0 0;
+}
+
+.cta a {
+  display: inline-block;
+  color: black;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background: hsl(187 75% 64%);
+  border-radius: 0.6rem;
+  font-weight: 700;
+  border: 0.35rem solid;
+}
