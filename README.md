@@ -1,5 +1,5 @@
 # Angularpractice
 
-### SPA-приложение на GitHub Pages: http://nikstork.github.io.spaceship-encyclopedia/
+### SPA-приложение на GitHub Pages: [CosmoGuru Encyclopedia](https://nikstork.github.io/AngularPractice/)
 
 #
