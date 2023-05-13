@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Sfdistant';
-  src: url('src/assets/Fonts/SfDistantGalaxy-0l3d.ttf') format('woff2'),
-  url('src/assets/Fonts/SfDistantGalaxy-0l3d.ttf') format('woff');
+  font-family: 'WolfalconCustom';
+  src: url('src/assets/Fonts/WolfalconRegular-RpjW3.ttf') format('woff2'),
+  url('src/assets/Fonts/WolfalconRegular-RpjW3.ttf') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +23,6 @@
 }
 
 body {
-  font-family: "Sfdistant";
   gap: 2rem;
   background: hsl(187 40% 98%);
 }
@@ -54,6 +53,17 @@ h2 {
   }
 }
 
+h2 {
+  font-family: 'WolfalconCustom';
+  font-size: 19px;
+  color: mediumblue;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
 .cta {
   --shadowColor: 187 60% 40%;
   display: flex;
