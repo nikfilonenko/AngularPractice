@@ -1,5 +1,5 @@
 # ***CosmoGuru - Encyclopedia (an open source of information for everyone)***
-
+## Выполнил: **Филоненко Никита**
 ### SPA-приложение на GitHub Pages: [CosmoGuru Encyclopedia](https://nikstork.github.io/AngularPractice/)
 #
 + **Cards**
