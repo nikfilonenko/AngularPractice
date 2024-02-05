@@ -3,8 +3,10 @@
 ### SPA-приложение на GitHub Pages: [CosmoGuru Encyclopedia](https://nikfilonenko.github.io/AngularPractice/)
 #
 + **Cards**
+
 ![image](https://github.com/nikfilonenko/AngularPractice/assets/103507130/5755dd63-de0e-415e-ac6b-c1ecaac71817)
 + **Login**
+
 ![image](https://github.com/nikfilonenko/AngularPractice/assets/103507130/c66b8303-8e0f-4695-b88f-fd21e32094a8)
 ## Formats
 ### Wide format
